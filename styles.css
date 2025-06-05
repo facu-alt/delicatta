@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", serif;
+  background-color: #eedac4;
+  color: #020202;
+}
+header {
+  background-color: #580918;
+  text-align: center;
+  padding: 0.53rem;
+  position: fixed;
+  top: -150px; 
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.5s ease;
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-size: 400%
+}
+
+p {
+  font-family: "Lucida Handwriting", cursive;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-size: x-small
+}
+}
+.show-header:hover + header,
+header:hover {
+  top: 0;
+}
+.show-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  z-index: 999;
+}
+main {
+  padding: 2rem;
+}
+footer {
+  background-color: #580918;
+  text-align:  left;
+  padding: 9rem;
+  margin-top: 9rem;
+}
+h2 {
+  font-family: "Georgia", serif;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+h3 {
+  font-family: "Georgia", serif;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+h4 {
+  font-family: "Georgia", serif;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+h5 {
+  font-family: "Georgia", serif;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}

@@ -43,12 +43,13 @@ header:hover {
 }
 main {
   padding: 2rem;
+  margin-top: 8rem;
 }
 footer {
   background-color: #580918;
   text-align:  left;
-  padding: 9rem;
-  margin-top: 9rem;
+  padding: 8rem;
+  margin-top: 21rem;
 }
 h2 {
   font-family: "Georgia", serif;
